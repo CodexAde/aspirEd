@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+      @media screen {
+        
+      }
+      .li-overview{
+        border-radius: 67px;
+        box-shadow: 6px 8px 10px 3px;
+        margin-bottom: 24px;
+      }
+      .leadlist2{
+        color: rgb(44, 36, 36);
+      }
+      .ban{
+        background-color: #7a6ad8;
+        /* border-bottom-left-radius: 89px; */
+      }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: rgb(233, 233, 233);
+            color: rgb(199, 199, 199);
+        }
+
+        table tr {
+           
+        }
+        table th {
+            
+           
+           text-decoration-color: rgb(15, 15, 5);
+           text-decoration-thickness: 3px;
+        }
+        
+        table td {
+            border: 1px solid #7a6ad8;
+            
+            padding-left: 5px;
+        }
+        td:nth-child(3){
+           
+         font-size: small;
+            
+        }
+        td:nth-child(2){
+           
+         font-size: large;
+            
+        }
+        td:nth-child(1){
+           
+         font-size: medium;
+         display: none;
+            
+        }
+
+        table {
+
+            background-color: #ffffff  !important;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            border-radius: 0px;
+            /* z-index: 5;
+            border: 1px solid rgb(255, 21, 21); */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+
+            color: rgb(0, 0, 0);
+            font-size: 34px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+        }
+        
+        .header-left {
+            position: sticky;
+            display: flex;
+            align-items: center;
+        }
+
+        .leadlist {
+            color: rgb(255, 255, 255);
+            font-size: 48px;
+            position: sticky;
+            padding-bottom:15px;
+            padding-left: 55px;
+            padding-top: 5px ;
+
+        }
+
+        .header-right {
+            /* Adjust logo size */
+            width: 50px;
+        }
+
+        .battery {
+            margin-left: 10px;
+            font-size: smaller;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .list-container {
+            background-color: #7a6ad8;
+           
+            /* border-radius: 65px; */
+            padding: 20px;
+        }
+
+        .list-container h2 {
+            margin-bottom: 15px;
+        }
+
+        .list-controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 14px 34px;
+        }
+
+        .list-controls button {
+            padding: 5px 10px;
+            border: 1px solid #d3c6c6;
+            border-radius: 81px;
+            background-color: #d89657;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th
+        td {
+            padding: 13px;
+            /* border: 1px solid #e2c4c4; */
+        }
+
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="ban">
+        <div class="header-left">
+            <span class="leadlist"> Lead list </span>
+            <!-- <span class="battery">16%</span> -->
+        </div>
+        <div class="header-right">
+            <!-- <img src="logo.png" alt="App logo"> -->
+        </div>
+    </header>
+
+    <main>
+        <section class="list-container ">
+         <button class="li-overview">  <h2 class="leadlist2">List Overview (Parag)</h2> </button> 
+            <!-- <div class="list-controls">
+                <button>Subscription</button>
+                <button>Fame Source</button>
+                <button>+ Customize</button>
+            </div> -->
+            <table style="background-color: white !important ; box-shadow: 11px 9px 12px 2px;">
+                <tr>
+                  <th>Name</th>
+                  <th>contact info</th>
+                  <!-- <th>Phone Number</th> -->
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Utkarsh</td>
+                  <td>+91 80095 16943</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>vikaskharwar05</td>
+                  <td>+91 96162 94418</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Vishal Yadav</td>
+                  <td>+91 73908 50370</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Vishwakarma Ramashish</td>
+                  <td>+91 96287 82485</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Lalita</td>
+                    <td>+91 91202 82296</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>MR ANU....</td>
+                    <td>+91 70845 52477</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Nikhil Shukla</td>
+                    <td>+91 86041 52372</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Nirmala Devi</td>
+                    <td>+91 99849-49907</td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Nitesh Vishwakarma</td>
+                    <td>+91 80093 24106</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Priyanshu Sharma</td>
+                    <td>+91 92195 30863</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Priyanshu Tiwari</td>
+                    <td>+91-96673 96031</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Rahul Sharma</td>
+                    <td>+91 84680 99906</td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>rajesh gupta</td>
+                    <td>+91 98387 23764</td>
+                  </tr>
+                
+                  <tr>
+                    <td>15</td>
+                    <td>Abhay Chaubey</td>
+                    <td>+91 99355 36108</td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>ABRAR AHMED</td>
+                    <td>+91 74082 40765</td>
+                  </tr>
+                  <tr>
+                    <td>17</td>
+                    <td>Aditya mall</td>
+                    <td>+91 96510 74898</td>
+                  </tr>
+                  <tr>
+                    <td>18</td>
+                    <td>Akash Patel</td>
+                    <td>+91 89229 55413</td>
+                  </tr>
+                  <tr>
+                    <td>19</td>
+                    <td>Akash Yadav</td>
+                    <td>+91 95553 53362</td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td>Amar Singh</td>
+                    <td>+91 88407 75736</td>
+                  </tr>
+                  <tr>
+                    <td>21</td>
+                    <td>Anu</td>
+                    <td>+91 96210 22210</td>
+                  </tr>
+                  <tr>
+                    <td>22</td>
+                    <td>Anubhav Yadav</td>
+                    <td>+91 6395 016 816</td>
+                  </tr>
+                  <tr>
+                    <td>23</td>
+                    <td>Archana Gupta</td>
+                    <td>+91 91400 96141</td>
+                  </tr>
+                  <tr>
+                    <td>24</td>
+                    <td>Ashish Yadav</td>
+                    <td>+91 89573 02470</td>
+                  </tr>
+                  <tr>
+                    <td>25</td>
+                    <td>Ashvani singh</td>
+                    <td>+91 96289 42598</td>
+                  </tr>
+                  <tr>
+    <td>26</td>
+    <td>Archana Gupta</td>
+    <td>+91 91400 96141</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Ashish Yadav</td>
+    <td>+91 89573 02470</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Ashvani singh</td>
+    <td>+91 96289 42598</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Chandan Singh</td>
+    <td>+91 86040-75748</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>d modanwal694</td>
+    <td>+91 89577 15040</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>Faiz Shaikh</td>
+    <td>+91 96484 60543</td>
+  </tr>
+    <tr>
+    <td>32</td>
+    <td>Krishna Murari pandey</td>
+    <td>+91 99369 19428</td>
+  </tr>
+   <tr>
+    <td>33</td>
+    <td>Guddidevi</td>
+    <td>+91 99366 26425</td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>Hariom Yadav</td>
+    <td>+91 91198 61498</td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>Iqbal Akhtar</td>
+    <td>+91 96480 89385</td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>J K Mishra</td>
+    <td>+91 89248 54723</td>
+  </tr>
+
+ 
+         </table>
+        </section>
+    </main>
+
+</body>
+
+</html>
